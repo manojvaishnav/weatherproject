@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weeather App</title>
+    <link rel="stylesheet" href="./css/style2.css">
+    <!-- <script src="./js/index.js"></script> -->
+</head>
+
+<body>
+    {{!-- {{>navbar}} --}}
+    <div class="container">
+        <div class="search">
+            <div class="searchdiv">
+                <input id="search" type="text"> <i class="fa-solid fa-magnifying-glass" id="searchbtn"></i>
+            </div>
+        </div>
+        <div class="temp">
+            <span id="time"></span>
+            <span id="msg">Current Weather</span>
+            <div class="temperature">
+                <div id="img"></div>
+                <span id="tempdata"></span>
+                <span id="condition"></span>
+            </div>
+        </div>
+        <div class="wind">
+            <div class="data">
+                <span>Wind</span>
+                <span id="windspeed"></span>
+            </div>
+            <div class="data">
+                <span>Humidity</span>
+                <span id="humidity"></span>
+            </div>
+            <div class="data">
+                <span>Visibility</span>
+                <span id="visibility"></span>
+            </div>
+            <div class="data">
+                <span>Preasure</span>
+                <span id="preasure"></span>
+            </div>
+        </div>
+    </div>
+
+<script src="js/main.js"></script>
+    {{!-- {{>footer}} --}}
+
+</body>
+
+</html>

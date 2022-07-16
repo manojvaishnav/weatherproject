@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 700px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    align-items: center;
+    margin: 10px;
+}
+
+.searchdiv {
+    display: flex;
+    align-items: center;
+    background-color: rgb(160, 166, 167);
+    border-radius: 14px;
+}
+
+.searchdiv input {
+    border-radius: 14px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.searchdiv input:focus {
+    outline: none;
+    color: white;
+}
+
+.searchdiv i {
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.temp {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    margin: 10px;
+}
+
+.temp span {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 1px;
+}
+
+.temp .temperature {
+    display: flex;
+    align-items: flex-end;
+}
+
+.temperature i {
+    font-size: 100px;
+    padding: 10px;
+    color: skyblue;
+}
+
+.temperature #tempdata {
+    font-size: 60px;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.temperature #condition {
+    font-size: 18px;
+    padding: 5px;
+    color: white;
+}
+
+.wind {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid skyblue;
+    border-radius: 18px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
